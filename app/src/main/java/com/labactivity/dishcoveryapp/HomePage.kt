@@ -16,7 +16,9 @@ class HomePage : AppCompatActivity() {
         binding = ActivityHomePageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        binding.profileButton.setOnClickListener(){
+            gotoProfile("Profile")
+        }
         // waffle recipe
         binding.rep1btn.setOnClickListener(){
             gotoIngredients("Waffle")
@@ -53,6 +55,13 @@ class HomePage : AppCompatActivity() {
         binding.snackbtn.setOnClickListener() {
             gotoactivity("snackbtn")
         }
+
+    }
+
+    fun gotoProfile(profileButton: String) {
+        val intent = Intent(this, Profile::class.java)
+        intent.putExtra("profileButton", profileButton)
+        startActivity(intent)
 
     }
 
