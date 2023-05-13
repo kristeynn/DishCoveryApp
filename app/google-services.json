@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659205190838",
+    "project_id": "dishcoveryapp-db260",
+    "storage_bucket": "dishcoveryapp-db260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659205190838:android:b166edc589207329d7e217",
+        "android_client_info": {
+          "package_name": "com.labactivity.dishcoveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659205190838-sv7a4ah0kafk5jhrl60b5l8n16r0nkup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCAxCP3hbcvZEeFFCKwt9cwwcGoDtEzkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659205190838-sv7a4ah0kafk5jhrl60b5l8n16r0nkup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

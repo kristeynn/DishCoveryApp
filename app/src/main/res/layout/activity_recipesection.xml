@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".recipesection">
+
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="419dp"
+        android:layout_height="130dp"
+
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repcipeopt3btn"
+        app:srcCompat="@drawable/foot" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dishcoveryblk" />
+
+
+    <ImageButton
+        android:id="@+id/repcipeopt1btn"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sectionview"
+        app:srcCompat="@drawable/chickencaesar" />
+
+    <ImageButton
+        android:id="@+id/repcipeopt2btn"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repcipeopt4btn"
+        app:srcCompat="@drawable/chickenparmesan" />
+
+    <ImageButton
+        android:id="@+id/repcipeopt3btn"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repcipeopt1btn"
+        app:srcCompat="@drawable/mozarella" />
+
+    <ImageButton
+        android:id="@+id/repcipeopt4btn"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:layout_marginEnd="28dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/repcipeopt1btn"
+        app:layout_constraintTop_toTopOf="@+id/repcipeopt1btn"
+        app:srcCompat="@drawable/waffle" />
+
+    <ImageView
+        android:id="@+id/sectionview"
+        android:layout_width="266dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/lunchsect" />
+</androidx.constraintlayout.widget.ConstraintLayout>
