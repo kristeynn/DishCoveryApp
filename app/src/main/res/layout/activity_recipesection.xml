@@ -13,6 +13,7 @@
         android:layout_width="419dp"
         android:layout_height="130dp"
 
+        android:layout_marginTop="56dp"
         android:rotation="180"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,21 +22,19 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="388dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="331dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dishcoveryblk" />
 
-
     <ImageButton
         android:id="@+id/repcipeopt1btn"
-        android:layout_width="173dp"
-        android:layout_height="179dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="143dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:background="@null"
         android:scaleType="fitCenter"
@@ -45,8 +44,8 @@
 
     <ImageButton
         android:id="@+id/repcipeopt2btn"
-        android:layout_width="173dp"
-        android:layout_height="179dp"
+        android:layout_width="139dp"
+        android:layout_height="152dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="28dp"
         android:background="@null"
@@ -57,9 +56,9 @@
 
     <ImageButton
         android:id="@+id/repcipeopt3btn"
-        android:layout_width="173dp"
-        android:layout_height="179dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="144dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
         android:background="@null"
         android:scaleType="fitCenter"
@@ -69,8 +68,8 @@
 
     <ImageButton
         android:id="@+id/repcipeopt4btn"
-        android:layout_width="173dp"
-        android:layout_height="179dp"
+        android:layout_width="140dp"
+        android:layout_height="146dp"
         android:layout_marginEnd="28dp"
         android:background="@null"
         android:scaleType="fitCenter"
