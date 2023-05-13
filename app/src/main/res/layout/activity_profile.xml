@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/dishcoveryblk" />
 
     <ImageButton
-        android:id="@+id/contactImgBtn"
+        android:id="@+id/contact"
         android:layout_width="258dp"
         android:layout_height="107dp"
         android:adjustViewBounds="true"
@@ -29,13 +29,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutImgBtn"
+        app:layout_constraintTop_toBottomOf="@+id/about"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/contact"
         tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/aboutImgBtn"
+        android:id="@+id/about"
         android:layout_width="258dp"
         android:layout_height="107dp"
         android:layout_marginTop="20dp"
