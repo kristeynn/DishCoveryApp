@@ -59,7 +59,7 @@ class Ingredients : AppCompatActivity() {
         //
         //Waffle
         if (resi1) {
-            binding.imageView.setImageResource(R.drawable.waff)
+            binding.imageView.setImageResource(R.drawable.wafflepic)
             binding.title.setText("Waffle")
             binding.recipee.setText(Details1())
         }

@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/dishcoverylogo"
+        android:icon="@drawable/dishcoverlogo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/book"
+        android:roundIcon="@drawable/coloredbook"
         android:supportsRtl="true"
         android:theme="@style/Theme.MainDishCovery">
         <activity
