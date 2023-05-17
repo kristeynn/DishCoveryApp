@@ -12,14 +12,11 @@
         android:id="@+id/footer"
         android:layout_width="419dp"
         android:layout_height="130dp"
-
-        android:layout_marginTop="64dp"
+        android:layout_marginBottom="-20dp"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/repcipeopt3btn"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/foot" />
 
     <ImageView
@@ -52,8 +49,10 @@
         android:layout_marginEnd="56dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/repcipeopt4btn"
+        app:layout_constraintVertical_bias="0.217"
         app:srcCompat="@drawable/chickenparmesan" />
 
     <ImageButton
@@ -64,10 +63,12 @@
         android:layout_marginTop="28dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toStartOf="@+id/repcipeopt2btn"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/repcipeopt1btn"
+        app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/mozarella" />
 
     <ImageButton

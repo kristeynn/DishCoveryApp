@@ -108,7 +108,7 @@
         android:id="@+id/lunchbtn"
         android:layout_width="162dp"
         android:layout_height="174dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="36dp"
         android:background="@null"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,6 +123,7 @@
         android:layout_marginTop="16dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toStartOf="@+id/snackbtn"
         app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,6 +138,7 @@
         android:layout_marginEnd="40dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lunchbtn"
         app:srcCompat="@drawable/snack" />
@@ -144,15 +146,12 @@
     <ImageView
         android:id="@+id/footer"
         android:layout_width="419dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="-20dp"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/snackbtn"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/foot" />
 
     <ImageButton
